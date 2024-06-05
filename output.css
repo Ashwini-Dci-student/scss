@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(./images/festival.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  min-width: 100vw;
+  width: 100vw;
+  margin: auto;
+  box-shadow: 22px 22px 22px black;
+  display: flex;
+  justify-content: right;
+  padding-bottom: 5px;
+}
+header ul {
+  display: flex;
+  margin: 25px;
+  justify-content: space-evenly;
+}
+header .top-nav {
+  width: 600px;
+  height: 70px;
+  background-color: rgb(14, 13, 13);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+header ul li {
+  list-style-type: none;
+}
+header a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(253, 248, 248);
+  text-shadow: 1px 0.6px white;
+}
+header a:hover {
+  /* background-color: rgb(178, 190, 186);*/
+  background-color: rgb(55, 151, 158);
+}
+
+body {
+  background-color: rgba(9, 10, 10, 0.418);
+}
+body .heading {
+  margin-bottom: 0.75rem;
+  width: 660px;
+  height: 120px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  text-align: center;
+}
+body h1 {
+  color: #f6c31c;
+  margin: auto;
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: capitalize;
+  padding-top: 0.75rem;
+}
+body div {
+  height: 30px;
+  width: 490px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #a89d9d;
+  margin: auto;
+}
+body p {
+  color: rgb(15, 14, 14);
+}
+body .about {
+  width: 1800px;
+  height: 200px;
+  text-align: justify;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+body .information {
+  width: 1800px;
+  height: 200px;
+  text-align: justify;
+  margin-top: 40px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+body h2 {
+  font-size: 30px;
+  color: rgba(17, 199, 223, 0.9058823529);
+}
+body .about {
+  background-color: rgba(92, 91, 87, 0.849);
+  width: 90vw;
+  height: 40vh;
+  padding: 0.75rem;
+}
+body .information {
+  background-color: rgba(92, 91, 87, 0.849);
+  width: 90vw;
+  height: 70vh;
+  padding: 0.75rem;
+}
+body .para {
+  line-height: 25px;
+  background-color: rgb(194, 181, 181);
+  padding: 0.75rem;
+  margin: 0.75rem;
+  margin-top: 30px;
+}
+body h1:hover {
+  background-color: rgb(29, 32, 28);
+  box-shadow: 10px 12px;
+}
+
+/*# sourceMappingURL=output.css.map */
